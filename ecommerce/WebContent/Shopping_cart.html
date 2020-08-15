@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>cart</title>
+<style>
+
+body{
+text-align:center}
+body{
+  background-image: url('shopping cart.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+</style>
+
+</head>
+<body>
+<h1> Shopping Cart</h1>
+<h2 class="name">books available</h2>
+<select class="option" name="books available">
+<option disabled="disabled" selected ="selected">--Choose Option</option>
+<option>PPS</option>
+<option>C++</option>
+<option>Web Technologies</option>
+<option>Python</option>
+</select>
+
+<label>Quantity:</label>   
+<input type="quantity"  name="quantity">
+
+<br>
+<br>
+<br>
+<input  type="button"
+ onclick= "window.location.href='http://localhost:8080/ecommerce/Payment.html';"
+ value="payment"/>
+
+</body>
+</html>

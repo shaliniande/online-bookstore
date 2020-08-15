@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>registration form</title>
+</head>
+<style>
+
+body{
+text-align:center}
+body {text="white"}
+body{
+  background-image: url('register_image.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+</style>
+
+<body>
+<form>
+<h1>Registration Form</h1>
+<label for="email"><b>Email</b></label><br>
+<input type="text" placeholder="enter email" name="email" id="email" required><br>
+<br>
+<label for="password"><b>Password</b></label><br>
+<input type="text" placeholder="enter password" name="password" id="password" required><br>
+<br>
+<label for="confirm password"><b>Confirm Password</b></label><br>
+<input type="text" placeholder="confirm password" name="con-password" id="con-password" required><br>
+
+<p>Please select your gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <br>
+  
+   Address:<br>
+  <textarea rows="4" cols="50" name="address"></textarea>
+  <br><br>
+  
+  <input type="submit" value="Submit">
+  <input type="reset" value="reset">
+  
+   <input type="button" 
+ onclick="window.location.href='http://localhost:8080/ecommerce/books.html';"
+ value="books"/> 
+  
+</form>
+
+</body>
+</html>
