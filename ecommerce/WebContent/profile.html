@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">
+			function checkDetails(){
+				var fn = document.getElementById("fullname").value;
+				var n = document.getElementById("number").value;
+				var p = document.getElementById("pw").value;
+				var e = document.getElementById("email").value;
+				var a = document.getElementById("age").value;
+				var g = document.getElementById("gender").value;
+				var d = document.getElementById("date").value;
+				var c = document.getElementById("code").value;
+				var ad = document.getElementById("address").value;
+				var s = document.getElementById("state").value;
+				var con = document.getElementById("country").value;
+				 if(fn == "" ){
+				 	alert("full name is mandatory");
+				 	return false;
+				 }
+				 else if(n == ""){
+				 	alert("mobile number is mandatory");
+				 	return false;
+				 }
+				 else if(e == ""){
+				 	alert("email is mandatory");
+				 	return false;
+				 }
+				 else if(p == ""){
+				 	alert("password is amndatory");
+				 	return false;
+				 }
+				 else if(fn.length <= 6){
+				   	alert("leength of the full name must be greater than 6");
+				   	return false;
+				   }
+				   else if(p.length <= 5) {
+				   	alert("password length must contain atleast 6");
+				   	return false;
+				   }
+				   else if(n.length != 10){
+				   	alert("enter correct mobile number");
+				   	return false;
+				   }
+				 else{
+				 	return true;
+				 }
+
+			}
+
+		</script>
+	<link rel="stylesheet" type = "text/css" href="profile_styles.css">
+	</head>
+	<body>
+		<div>
+			
+		<h1 style = "padding-bottom:20px;"class = "page_header">My Profile</h1>
+
+<p> Full name: </p>
+<input type = "text" class = "box" placeholder = "Full name" id = "fullname" value = "shruthi pachava">
+<p>Mobile number:</p>
+<input type = "text" class = "box"  placeholder = "mobile number" id = "number" value = "987654321">
+<p>Email:</p>
+<input type = "email" class = "box" placeholder = "email" id = "email" value = "gwsjyduyeghye@gmail.com">
+<p>Age:</p>
+<input type = "number" class = "box" placeholder = "age" id = "age" value = "35">
+<p>Gender:</p>
+<input type = "text" class = "box" placeholder = "gender" id = "gender" value = "Female">
+<p>Date of Birth:</p>
+<input type="date" class = "box" placeholder = "dd-mm-yyyy" id = "date" value = "12-06-2001">
+<p>pin code:</p>
+<input type = "text" class = "box" placeholder = "code" id= "code" value = "503245">
+<p>Address:</p>
+<input type = "text" class = "box" placeholder = "address" id = "address" value = "gfudfguydgyu, dyheurh, uheurheu">
+<p>State:</p>
+<input type = "text" class = "box" placeholder = "state" id = "state" value = "telangana" >
+<p>Country:</p>
+<input type = "text" class = "box" placeholder = "country" id = "country" value = "India">
+<p>Password:</p>
+<input type = "text" class = "box" style = "font-size: 30px;"placeholder = "password" id = "pw" value = "............"><br>
+<button onClick= "return checkDetails()">Save</button>
+</div>
+
+	</body>
+</html>

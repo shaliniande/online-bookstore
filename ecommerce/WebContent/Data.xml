@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+<user id = "001">
+<id>001</id>
+<name>Shalini</name>
+<email>shalini@gmail.com</email>
+<mobileNumber>7896541233</mobileNumber>
+</user>
+<user id = "002">
+<id>002</id>
+<name>Bijayashreedas</name>
+<email>ranu@gmail.com</email>
+<mobileNumber>7892536143</mobileNumber>
+</user>
+<user id = "003">
+<id>003</id>
+<name>Tapasvi</name>
+<email>tapasvi3000@gmail.com</email>
+<mobileNumber>7895463211</mobileNumber>
+</user>
+<user id = "004">
+<id>004</id>
+<name>shreya</name>
+<email>shreya@gmail.com</email>
+<mobileNumber>8521477963</mobileNumber>
+</user>
+<user id = "005">
+<id>005</id>
+<name>chaitra</name>
+<email>chaitra@gmail.com</email>
+<mobileNumber>2589631478</mobileNumber>
+</user>
+<user id = "006">
+<id>006</id>
+<name>Renu</name>
+<email>Renu@gmail.com</email>
+<mobileNumber>3214569877</mobileNumber>
+</user>
+<user id = "007">
+<id>007</id>
+<name>Tejaswini</name>
+<email>teju@gmail.com</email>
+<mobileNumber>5641239877</mobileNumber>
+</user>
+<user id = "008">
+<id>008</id>
+<name>Saisree</name>
+<email>saisree@gmail.com</email>
+<mobileNumber>8521436922</mobileNumber>
+</user>
+<user id = "009">
+<id>009</id>
+<name>Sahasra</name>
+<email>sahasra@gmail.com</email>
+<mobileNumber>5478936211</mobileNumber>
+</user>
+<user id = "010">
+<id>010</id>
+<name>Mokshith</name>
+<email>moksh@gmail.com</email>
+<mobileNumber>9632587415</mobileNumber>
+</user>
+</users>
